@@ -56,7 +56,6 @@ android {
         implementation 'androidx.heifwriter:heifwriter:1.0.0'
         implementation 'commons-io:commons-io:2.6'
 
-        }
     }
 
     testOptions {
@@ -65,10 +64,9 @@ android {
 
             testLogging {
                 events "passed", "skipped", "failed", "standardOut", "standardError"
-                outputs.upToDateWhen {false}
+                outputs.upToDateWhen { false }
                 showStandardStreams = true
             }
         }
     }
 }
-
