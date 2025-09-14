@@ -3,7 +3,7 @@ module flutter_image_compress_example/go
 go 1.13
 
 require (
-	github.com/chai2010/webp v1.1.0 // indirect
+	github.com/chai2010/webp v1.4.0 // indirect
 	github.com/disintegration/imaging v1.6.2 // indirect
 	github.com/fluttercandies/flutter_image_compress/go v0.0.0-00010101000000-000000000000
 	github.com/go-flutter-desktop/go-flutter v0.40.1
